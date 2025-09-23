@@ -4,18 +4,18 @@
   <meta charset="UTF-8">
   <title>Payment - Clothify</title>
   <style>
-    body {margin:0;font-family:Arial,sans-serif;background:#f0f0f0;color:#333;display:flex;justify-content:center;align-items:center;min-height:100vh;}
+    body {margin:0;font-family:Arial,sans-serif;background:#fff5f5;display:flex;justify-content:center;align-items:center;min-height:100vh;}
     .container {background:white;padding:30px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.1);width:90%;max-width:400px;}
-    h2 {text-align:center;margin-top:0;}
+    h2 {text-align:center;margin-top:0;color:#b22222;}
     label {display:block;margin:15px 0 5px;}
     input {width:100%;padding:10px;border:1px solid #ccc;border-radius:8px;}
-    button {background:#333;color:white;border:none;padding:10px 15px;margin-top:20px;width:100%;border-radius:8px;cursor:pointer;transition:background 0.3s;}
-    button:hover {background:#555;}
+    button {background:#b22222;color:white;border:none;padding:12px;margin-top:20px;width:100%;border-radius:8px;cursor:pointer;transition:background 0.3s;}
+    button:hover {background:#8b0000;}
   </style>
 </head>
 <body>
   <div class="container">
-    <h2>Payment</h2>
+    <h2>Payment Details</h2>
     <form onsubmit="pay(event)">
       <label>Card Number</label>
       <input type="text" maxlength="16" required>
