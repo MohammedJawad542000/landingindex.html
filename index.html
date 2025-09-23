@@ -31,58 +31,64 @@
   </header>
 
   <section class="products">
+    <!-- T-SHIRT -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="T-shirt">
       <div class="card-body">
         <h3>Classic T-Shirt</h3>
         <p>Comfortable cotton tee for everyday wear.</p>
         <div class="price">$20</div>
-        <button onclick="buyProduct('Classic T-Shirt', 20, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Classic T-Shirt', 20, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
+    <!-- JEANS -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1583002111434-5a9d07f0b77a?auto=format&fit=crop&w=800&q=80" alt="Jeans">
       <div class="card-body">
         <h3>Denim Jeans</h3>
         <p>Perfect fit with a stylish wash.</p>
         <div class="price">$40</div>
-        <button onclick="buyProduct('Denim Jeans', 40, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Denim Jeans', 40, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
+    <!-- DRESS -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65?auto=format&fit=crop&w=800&q=80" alt="Dress">
       <div class="card-body">
         <h3>Summer Dress</h3>
         <p>Lightweight and breathable for sunny days.</p>
         <div class="price">$35</div>
-        <button onclick="buyProduct('Summer Dress', 35, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Summer Dress', 35, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
+    <!-- JACKET -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1592878904946-b2b4e2faec70?auto=format&fit=crop&w=800&q=80" alt="Jacket">
       <div class="card-body">
         <h3>Leather Jacket</h3>
         <p>Classic style with a modern twist.</p>
         <div class="price">$120</div>
-        <button onclick="buyProduct('Leather Jacket', 120, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Leather Jacket', 120, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
+    <!-- HOODIE -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1618354691373-2dbb5f4e6080?auto=format&fit=crop&w=800&q=80" alt="Hoodie">
       <div class="card-body">
         <h3>Casual Hoodie</h3>
         <p>Stay cozy and stylish.</p>
         <div class="price">$30</div>
-        <button onclick="buyProduct('Casual Hoodie', 30, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Casual Hoodie', 30, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
+    <!-- SKIRT -->
     <div class="card">
       <img src="https://images.unsplash.com/photo-1593032465179-8d5716cbe9d1?auto=format&fit=crop&w=800&q=80" alt="Skirt">
       <div class="card-body">
         <h3>Pleated Skirt</h3>
         <p>Chic and elegant for any outing.</p>
         <div class="price">$28</div>
-        <button onclick="buyProduct('Pleated Skirt', 28, this.previousElementSibling.previousElementSibling.src)">Buy Now</button>
+        <button onclick="buyProduct('Pleated Skirt', 28, this.closest('.card').querySelector('img').src)">Buy Now</button>
       </div>
     </div>
   </section>
