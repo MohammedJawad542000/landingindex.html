@@ -5,22 +5,34 @@
   <title>Clothify - Modern Clothing Store</title>
   <style>
     body {margin:0;font-family:Arial, sans-serif;background:#f9f9f9;color:#333;}
-    header {background:url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
-            height:60vh;display:flex;flex-direction:column;justify-content:center;
-            align-items:center;color:white;text-shadow:0 2px 5px rgba(0,0,0,0.6);}
+    header {
+      background:url('https://images.unsplash.com/photo-1521335629791-ce4aec67dd53?ixlib=rb-4.0.3&auto=format&fit=crop&w=1600&q=80') center/cover no-repeat;
+      height:60vh;
+      display:flex;flex-direction:column;justify-content:center;align-items:center;
+      color:white;text-shadow:0 2px 5px rgba(0,0,0,0.6);
+    }
     header h1 {font-size:3.5rem;margin:0;}
     header p {font-size:1.4rem;}
-    .products {padding:40px;display:grid;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));gap:20px;}
-    .card {background:white;border-radius:12px;overflow:hidden;
-           box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s;}
+    .products {
+      padding:40px;
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+    .card {
+      background:white;border-radius:12px;overflow:hidden;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);transition:transform 0.2s;
+    }
     .card:hover {transform:translateY(-5px);}
     .card img {width:100%;height:280px;object-fit:cover;}
     .card-body {padding:20px;}
     .card-body h3 {margin:0;font-size:1.2rem;}
     .card-body p {font-size:0.9rem;color:#666;}
     .price {font-weight:bold;margin:10px 0;}
-    button {background:#111;color:white;border:none;padding:10px 15px;
-            border-radius:8px;cursor:pointer;transition:background 0.3s;}
+    button {
+      background:#111;color:white;border:none;padding:10px 15px;
+      border-radius:8px;cursor:pointer;transition:background 0.3s;
+    }
     button:hover {background:#444;}
   </style>
 </head>
@@ -33,7 +45,7 @@
   <section class="products">
     <!-- T-SHIRT -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?auto=format&fit=crop&w=800&q=80" alt="T-shirt">
+      <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="T-shirt">
       <div class="card-body">
         <h3>Classic T-Shirt</h3>
         <p>Comfortable cotton tee for everyday wear.</p>
@@ -43,7 +55,7 @@
     </div>
     <!-- JEANS -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1583002111434-5a9d07f0b77a?auto=format&fit=crop&w=800&q=80" alt="Jeans">
+      <img src="https://images.unsplash.com/photo-1583002111434-5a9d07f0b77a?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Jeans">
       <div class="card-body">
         <h3>Denim Jeans</h3>
         <p>Perfect fit with a stylish wash.</p>
@@ -53,7 +65,7 @@
     </div>
     <!-- DRESS -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65?auto=format&fit=crop&w=800&q=80" alt="Dress">
+      <img src="https://images.unsplash.com/photo-1520962918287-7448c2878f65?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Dress">
       <div class="card-body">
         <h3>Summer Dress</h3>
         <p>Lightweight and breathable for sunny days.</p>
@@ -63,7 +75,7 @@
     </div>
     <!-- JACKET -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1592878904946-b2b4e2faec70?auto=format&fit=crop&w=800&q=80" alt="Jacket">
+      <img src="https://images.unsplash.com/photo-1592878904946-b2b4e2faec70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Jacket">
       <div class="card-body">
         <h3>Leather Jacket</h3>
         <p>Classic style with a modern twist.</p>
@@ -73,7 +85,7 @@
     </div>
     <!-- HOODIE -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1618354691373-2dbb5f4e6080?auto=format&fit=crop&w=800&q=80" alt="Hoodie">
+      <img src="https://images.unsplash.com/photo-1618354691373-2dbb5f4e6080?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Hoodie">
       <div class="card-body">
         <h3>Casual Hoodie</h3>
         <p>Stay cozy and stylish.</p>
@@ -83,7 +95,7 @@
     </div>
     <!-- SKIRT -->
     <div class="card">
-      <img src="https://images.unsplash.com/photo-1593032465179-8d5716cbe9d1?auto=format&fit=crop&w=800&q=80" alt="Skirt">
+      <img src="https://images.unsplash.com/photo-1593032465179-8d5716cbe9d1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Skirt">
       <div class="card-body">
         <h3>Pleated Skirt</h3>
         <p>Chic and elegant for any outing.</p>
@@ -101,3 +113,4 @@
   </script>
 </body>
 </html>
+
